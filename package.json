@@ -1,0 +1,87 @@
+{
+  "name": "run_admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.8.6",
+    "axios": "^0.15.3",
+    "dayjs": "^1.7.7",
+    "element-ui": "^2.4.5",
+    "file-saver": "^2.0.0-rc.4",
+    "js-xlsx": "^0.8.22",
+    "script-loader": "^0.7.2",
+    "viser-vue": "^2.2.3",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "xlsx": "^0.14.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.0",
+    "@vue/cli-plugin-eslint": "^3.1.0",
+    "@vue/cli-service": "^3.1.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.17",
+    "vue-async-computed": "^3.4.1",
+    "svg-sprite-loader": "^3.8.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {
+      "semi": [
+        0,
+        1
+      ],
+      "quotes": [
+        0,
+        "single"
+      ],
+      "object-curly-spacing": [
+        0,
+        "never"
+      ],
+      "spaced-comment": [
+        0,
+        "never"
+      ],
+      "dot-location": [
+        0,
+        "never"
+      ],
+      "vue/no-unused-vars": [
+        0,
+        "never"
+      ]
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

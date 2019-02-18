@@ -1,0 +1,156 @@
+@import "element_overwrite.styl"
+.root-views
+  padding 0
+  width 100%
+  height 100%
+  overflow auto
+  font-size: 13px
+  color #666
+  background-color #f4f4f4
+  .subviews::after
+    content '@2018 互联心信息技术'
+    display block
+    line-height 37px
+    text-align center
+  .breadcrumb
+    border-bottom: none
+    color #999
+    padding-left 20px
+    font-size 12px
+    height 32px
+    display flex
+    align-items center
+    .el-breadcrumb
+      font-size 12px
+      line-height 1
+ // 修改loading样式
+.el-loading-spinner
+  display: flex;
+  justify-content: center
+  align-items: center
+  position absolute
+  top 50%
+  left 50%
+  transform translate(-50%,-50%)
+  width 110px
+  height 28px;
+  background-color #666
+  border-radius 4px
+  .circular
+    width 16px
+    height 16px
+    margin-right 7px
+    color #fff
+    animation: loading-rotate 1s linear infinite
+  .path
+    stroke #fff
+  .el-loading-text
+    font-size 12px
+    color: #fff
+    display inline-bloc
+.tab_classify
+  margin-left 15px
+  margin-right 15px
+  padding 20px 20px 0 20px
+  background-color #ffffff
+.hlx_list
+  height calc(100% - 120px)
+  position relative
+  padding 15px
+  margin 0 15px
+  background-color #fff
+  overflow hidden
+  .el-table
+    height calc(100% - 30px)
+    .el-table__body-wrapper
+      height calc(100% - 44px)
+      width: calc(100% + 8px)
+      overflow auto !important
+  .pagination
+    text-align right
+    z-index 20
+    margin-top 5px
+    background #fff
+    span
+      font-size 12px
+.tool_bar
+  margin-left 15px
+  margin-right 15px
+  padding 20px
+  background-color #ffffff
+.search-width
+  width 160px
+.search-input
+  margin-right 10px
+  position: relative
+  .icon-search
+    font-size 18px
+    position absolute
+    z-index 2
+    left 8px
+    top 7px
+    color #bdb4b4
+.hlx_list
+  margin-left 15px
+  margin-right 15px
+  padding 0 20px 20px 20px
+  background-color #ffffff
+// 富文本编辑
+.ql-container
+  min-height 100px
+// 布局
+.f1
+  flex 1
+.f2
+  flex 2
+.f3
+  flex 3
+.f4
+  flex 4
+.f5
+  flex 5
+.f6
+  flex 6
+.f7
+  flex 7
+.f8
+  flex 8
+.f9
+  flex 9
+
+.hr
+  border none
+  height 1px
+  background-color #e8e8e8
+  margin 10px 0 20px
+
+// 布局
+.flex
+  display flex
+.flex_space_around
+  display flex
+  align-items center
+  justify-content space-around
+.flex_center
+  display flex
+  align-items center
+  justify-content center
+.flex_start_center
+  display flex
+  align-items center
+  justify-content flex-start
+.flex_direction_column
+  display flex
+  flex-direction column
+  justify-content center
+.flex_space_around
+  display flex
+  align-items center
+  justify-content space-between
+.flex_space_between
+  display flex
+  align-items center
+  justify-content space-between
+
+.mce-widget
+  display none
