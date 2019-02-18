@@ -47,7 +47,7 @@ import menu from '@/conf/menu.js'
 export default {
   data () {
     return {
-      text: 'xxxx中学跑步后台',
+      text: '岐山中学跑步后台',
       menu: menu,
       activeIndex: '1'
     }

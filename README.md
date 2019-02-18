@@ -1,29 +1,11 @@
-# run_admin
+## 技术栈：vue_cli3.0  + vue全家桶 + elementUI + stylus
 
-## Project setup
-```
-npm install
-```
+### 项目目录结构
+<img src="./public/img/category.jpg" alt="图片名称" >
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 部分页面展示
+<img src="./public/img/pic2.jpg" alt="图片名称">
 
-### Compiles and minifies for production
-```
-npm run build
-```
+<img src="./public/img/pic.jpg" alt="图片名称">
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
